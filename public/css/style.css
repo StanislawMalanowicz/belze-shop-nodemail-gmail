@@ -1,0 +1,41 @@
+  /* video */
+      #myVideo {
+          position: fixed;
+          right: 0;
+          bottom: 0;
+          min-width: 100%;
+          min-height: 100%;
+          z-index: -1;
+          filter: grayscale(100%) sepia(100%) hue-rotate(90deg);
+		}
+	
+		.simpleCart_shelfItem {
+			padding: 20px;
+				transition: all .4s;
+				-webkit-transition: all .4s;
+			}
+			.simpleCart_shelfItem:hover {
+				transform: scale(1.05);
+				-ms-transform: scale(1.05);
+				-webkit-transform: scale(1.05);
+				box-shadow: 0 0 20px #888;
+				background-color: #fff;
+			}
+
+			.simpleCart_items img {
+				max-width: 64px;
+				max-height: 64px;
+			}
+			.item-quantity, .item-decrement, .item-increment {
+				text-align: center;
+			}
+      .item_name{
+        color: white;
+      }
+			.mix {
+				display: none;
+			}
+      /* .modal-dialog {
+        border: solid red;
+       
+      } */
